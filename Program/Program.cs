@@ -15,7 +15,7 @@ namespace TDDPalindromeT
             {
 
 
-                Console.Write("Enter a word: ");
+                Console.Write("Enter a nice word: ");
                 var value = Console.ReadLine();
                 if (value == "q")
                     break;
