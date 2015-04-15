@@ -82,10 +82,22 @@ namespace TDDPalindromeT.Test
 
         }
 
-      
-
-
-
         #endregion Negative Cases
+
+
+
+        #region Negative Cases
+        [TestMethod]
+        public void impossible()
+        {
+          
+
+
+            //Assert
+            Assert.AreEqual(0, 1);
+
+        }
+
+        #endregion 
     }
 }
